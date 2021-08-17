@@ -1,0 +1,35 @@
+ww.c -
+
+    Objective:
+        Reformat text files, so that each line has a certain number, x, of characters per line.
+        x will be determined by user.
+    
+    Inputs:
+        First argument is the number of characters per line.
+        Second argument is a file/directory.
+    
+    Outputs:
+        1. If the second argument is a directory,
+            the code creates an output file for each file in the directory.
+            Then the reformatted text will be written in the output file.
+        2. If the second argument is a file, the reformatted text is written to standard output
+        3. If the second argument is not present, the code reads from standard input.
+            The reformatted text is written to standard output.
+       
+       
+wcat.c -
+
+    Objective:
+        Reformat text files, so that each line has a certain number, x, of characters per line.
+        x will be determined by user.
+        Concatenate the reformated text of all input files
+        
+    Inputs:
+        First argument is the number of characters per line.
+        Additional arguments are files (there must be at least one additional argument)
+        
+    Output:
+        Reformatted text is written to standard output
+
+
+NOTE: wcat does not accept directories as an input, but wcat does
